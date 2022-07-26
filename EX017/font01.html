@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+            font-size: 1em ;
+
+            /*assim como na img e video, existe uma ordem segura para voce escolher sua fonte. caso o dispositivo não ache a primeira, irá para a proxíma da lista. Para textos em SITES é importante escolher uma font sem serifa.*/
+            
+            /*Para título e subtítulo é importante escolher uma fonte com serifa, que chame a atenção. Aqui tbm segue a mesma regra anterior, com uma ordem segura de fonte. (O CSS WEB SAFE FONT de da opções seguras) */
+            
+            /*Medidas Absolutas
+        cm, mm, in (polegada) px, pt, pc
+        - essas medidas são absolutas, mas pode ocorrer erros na representação.
+
+        Medidas Relativas
+        em (tamanho referente ao m da letra), ex, rem, vw, vh, %  - É RECOMENDAVEL QUE USAR PX E EM 
+        
+        16px geralmente = 1em*/
+        
+        /*
+             font-style:italic (qual o estilo)
+             font-weight:bolder; (qual a largura)
+             font-size:3em; (o tamanho)
+             font-family:sans-serif (qual a fonte)
+
+             -COM O SHORTHAND voce simplifica com a tag FONT e na mesma ordem monta com apenas as palavras
+             style, weight, size, family*/
+             
+
+             
+          
+       }
+    
+    h1{
+        font:  bolder 3em sans-serif, arial;
+       }
+      
+    h2{
+        font: bolder 2em , arial;
+
+    }
+        
+        
+
+    
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nulla ipsum magnam, doloremque quaerat nihil ducimus veniam ullam cupiditate laborum vitae ea rem autem, iusto molestiae temporibus! Est, explicabo quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officia nostrum, quod reiciendis ipsam sit commodi minima at repudiandae reprehenderit in vel facere debitis quos recusandae molestias, obcaecati, laboriosam eni</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum dolore, ab similique reiciendis doloremque. Laudantium praesentium accusantium totam quas, placeat aspernatur iste ad, itaque nostrum officiis magnam, veritatis odit.</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis quos iusto cupiditate asperiores, neque alias at natus perspiciatis vero voluptate ad delectus fugiat sit nisi aliquam qui dolore!</p>
+    
+</body>
+</html>
